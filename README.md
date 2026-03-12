@@ -22,5 +22,6 @@ Based on the data, I recommend the following business actions:
 3. **LiveOps Monitoring (Early Warning):** Implement an automated CRM trigger. When active High-Value Players reach Level 48 or 49, automatically grant them a proactive retention reward to bridge them through the Level 50 drop-off zone.
 
 ## 📂 Repository Contents
-* `gaming_analysis_queries.sql`: The original SQL queries used to extract and aggregate the player and purchase data.
+* `01_database_setup.sql`: DDL and DML scripts used to architect the database schema and generate the initial dataset.
+* `02_monetization_analysis.sql`: The analytical queries used to extract and aggregate the player and purchase data.
 * `F2P_Monetization_Dashboard.pbix`: The interactive Power BI dashboard file.
